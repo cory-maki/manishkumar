@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>About Manish Kumar | Higher Education Finance & Administration Executive | Bowie, Maryland</title>
+<meta name="description" content="About Manish Kumar — VP for Administration and Finance and CFO at Bowie State University. Twenty-plus years of higher education leadership across UNC Chapel Hill, Rutgers, Northeastern Illinois, and Bowie State."/>
+<link rel="canonical" href="https://manishkumar.netlify.app/about.html"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="assets/style.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+(function(){
+  const _sb=supabase.createClient('https://aowblircaymwuymcmllh.supabase.co','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFvd2JsaXJjYXltd3V5bWNtbGxoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTIzMzExMjcsImV4cCI6MjA2NzkwNzEyN30.qS7jxVwu83zEYMvxNo7C_2dtVrSZ6wYIFiNtoN69UkQ');
+  const _cid='Manish Kumar';
+  async function loadSBLinks(){
+    const[{data:soc},{data:news}]=await Promise.all([
+      _sb.from('social_media').select('*').eq('client_id',_cid),
+      _sb.from('news_links').select('*').eq('client_id',_cid)
+    ]);
+    const render=(ids,data)=>ids.forEach(id=>{
+      const el=document.getElementById(id);
+      if(!el||!data)return;
+      el.innerHTML='';
+      data.forEach(l=>{
+        const a=document.createElement('a');
+        a.href=l.url;a.target='_blank';a.rel='noopener noreferrer';a.title=l.name;
+        a.innerHTML='<img src="'+l.icon+'" alt="'+l.name+'" style="width:30px;height:30px;border-radius:4px"/>';
+        el.appendChild(a);
+      });
+    });
+    render(['sml-soc-about'],soc);
+    render(['sml-news-about'],news);
+  }
+  document.addEventListener('DOMContentLoaded',loadSBLinks);
+})();
+</script>
+<meta property="og:type" content="profile"/>
+<meta property="og:title" content="About Manish Kumar | Higher Education Finance & Administration Executive | Bowie, Maryland"/>
+<meta property="og:description" content="About Manish Kumar — VP for Administration and Finance and CFO at Bowie State University. Twenty-plus years of higher education leadership across UNC Chapel Hill, Rutgers, Northeastern Illinois, and Bowie State."/>
+<meta property="og:image" content="https://manishkumar.netlify.app/images/hero.jpg"/>
+<meta property="og:url" content="https://manishkumar.netlify.app/about.html"/>
+<meta property="og:site_name" content="Manish Kumar"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Manish Kumar",
+  "jobTitle": "Vice President for Administration and Finance and Chief Financial Officer",
+  "worksFor": {
+    "@type": "CollegeOrUniversity",
+    "name": "Bowie State University"
+  },
+  "url": "https://manishkumar.netlify.app/",
+  "image": "https://manishkumar.netlify.app/images/hero.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bowie",
+    "addressRegion": "Maryland",
+    "addressCountry": "US"
+  },
+  "description": "Higher education executive with more than 20 years of leadership experience across public research universities, currently serving as Vice President for Administration and Finance and CFO at Bowie State University.",
+  "sameAs": [
+    "https://it.quora.com/profile/Manish-Kumar-5",
+    "https://www.reddit.com/user/manishkumar1020/",
+    "https://github.com/manishkumar10200",
+    "https://dribbble.com/manishkumar79de",
+    "https://gravatar.com/manishkumar500",
+    "https://vimeo.com/manishkumar1",
+    "https://www.producthunt.com/@manishkumar1020",
+    "https://venture.angellist.com/v/manish-kumar-1624/i/manish-kumar-157/portfolio",
+    "https://www.f6s.com/ManishKumar1020",
+    "https://www.crunchbase.com/",
+    "https://scholar.google.com/citations?user=949ZvBoAAAAJ",
+    "https://substack.com/@manishkumar12",
+    "https://es.slideshare.net/manishkumar950856",
+    "https://patch.com/users/manish-kumar-1",
+    "https://medium.com/@manishkumar5",
+    "https://manishkumar.us/"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Manish Kumar — Higher Education Finance & Administration Executive",
+  "url": "https://manishkumar.netlify.app/",
+  "description": "Manish Kumar is a higher education finance and administration executive based in Bowie, Maryland, currently serving as Vice President for Administration and Finance and CFO at Bowie State University.",
+  "publisher": {
+    "@type": "Person",
+    "name": "Manish Kumar"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "url": "https://manishkumar.netlify.app/about.html",
+  "name": "About Manish Kumar",
+  "mainEntity": {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Manish Kumar",
+    "jobTitle": "Vice President for Administration and Finance and Chief Financial Officer",
+    "worksFor": {
+      "@type": "CollegeOrUniversity",
+      "name": "Bowie State University"
+    },
+    "url": "https://manishkumar.netlify.app/",
+    "image": "https://manishkumar.netlify.app/images/hero.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bowie",
+      "addressRegion": "Maryland",
+      "addressCountry": "US"
+    },
+    "description": "Higher education executive with more than 20 years of leadership experience across public research universities, currently serving as Vice President for Administration and Finance and CFO at Bowie State University.",
+    "sameAs": [
+      "https://it.quora.com/profile/Manish-Kumar-5",
+      "https://www.reddit.com/user/manishkumar1020/",
+      "https://github.com/manishkumar10200",
+      "https://dribbble.com/manishkumar79de",
+      "https://gravatar.com/manishkumar500",
+      "https://vimeo.com/manishkumar1",
+      "https://www.producthunt.com/@manishkumar1020",
+      "https://venture.angellist.com/v/manish-kumar-1624/i/manish-kumar-157/portfolio",
+      "https://www.f6s.com/ManishKumar1020",
+      "https://www.crunchbase.com/",
+      "https://scholar.google.com/citations?user=949ZvBoAAAAJ",
+      "https://substack.com/@manishkumar12",
+      "https://es.slideshare.net/manishkumar950856",
+      "https://patch.com/users/manish-kumar-1",
+      "https://medium.com/@manishkumar5",
+      "https://manishkumar.us/"
+    ]
+  }
+}
+</script>
+</head>
+<body>
+
+<!-- ══ NAV ═══════════════════════════════════════════════════════ -->
+<nav id="main-nav">
+  <a class="nav-logo" href="/">Manish<span> Kumar</span></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a class="active" href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ══ PAGE HERO ═════════════════════════════════════════════════ -->
+<div class="pg-hero">
+  <p class="eyebrow" style="color:rgba(255,255,255,.55)">Learn More</p>
+  <h1>Manish Kumar</h1>
+  <p class="pg-sub">Vice President for Administration and Finance and Chief Financial Officer at Bowie State University, with more than two decades of senior leadership experience across UNC Chapel Hill, Rutgers, Northeastern Illinois, and Bowie State.</p>
+</div>
+
+<!-- ══ PROFILE CARD ══════════════════════════════════════════════ -->
+<div class="pc-wrap">
+  <div class="pc">
+    <div class="pc-ph"><img src="images/hero.jpg" alt="Manish Kumar"/></div>
+    <div>
+      <div class="pc-nm">Manish Kumar</div>
+      <div class="pc-rl">Higher Education Finance & Administration Executive</div>
+      <div class="pc-lc">Bowie, Maryland</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ ABOUT SECTIONS + SIDEBAR ══════════════════════════════════ -->
+<div class="am-wrap">
+  <div class="am-inner">
+    <div>
+
+      <div class="csec">
+        <p class="cey">Current Role</p>
+        <h2>Vice President & CFO at Bowie State University</h2>
+        <p>Manish Kumar currently serves as Vice President for Administration and Finance and Chief Financial Officer at Bowie State University, a member of the President's senior leadership team. The portfolio covers finance, budget, treasury, human resources, procurement, facilities, auxiliary services, capital planning, information technology, and enterprise systems — the full administrative and financial enterprise of the institution.</p>
+        <p>In partnership with the President, Provost, and academic leadership, Mr. Kumar aligns institutional resources with strategic priorities: academic program development, research growth, student success, and infrastructure investment. He also serves on the Board of Directors of the Bowie State University Foundation, contributing to fiduciary oversight and advancement strategy. The current operating envelope at Bowie State includes a $200M+ operating budget, a $75M endowment, and more than $41M in sponsored research funding.</p>
+      </div>
+
+      <div class="csec">
+        <p class="cey">Financial Turnaround</p>
+        <h2>Restoring Stability at Northeastern Illinois University</h2>
+        <p>At Northeastern Illinois University, Manish Kumar played a central role in restoring financial stability and rebuilding institutional confidence during one of the most difficult periods in the institution's history. The work secured more than $43 million in supplemental state and federal funding and produced a four-notch upgrade in the University's Moody's credit rating — an outcome rare enough that it remains cited in higher education finance circles as a benchmark turnaround.</p>
+        <p>Beyond the headline numbers, the NEIU period reflected a broader philosophy: that credibility with rating agencies, legislators, and faculty is built through transparency, disciplined planning, and a willingness to make uncomfortable trade-offs early rather than late. Mr. Kumar also served as Treasurer of the University Foundation and as a Board Member of the Illinois Public Higher Education Cooperative, contributing to governance and statewide institutional collaboration. His <a href="financial-sustainability-higher-ed.html">approach to financial sustainability</a> took shape in this period.</p>
+      </div>
+
+      <div class="csec">
+        <p class="cey">Earlier Leadership</p>
+        <h2>UNC Chapel Hill, Rutgers, and the Foundations of the Practice</h2>
+        <p>At the University of North Carolina at Chapel Hill, one of the nation's premier public research universities, Mr. Kumar held senior financial leadership roles supporting stewardship of endowment resources exceeding $1.2 billion and operating budgets exceeding $400 million. The work involved aligning financial resources with strategic priorities in research expansion, faculty investment, and academic program development — the operational translation of a research university's ambitions.</p>
+        <p>Earlier at Rutgers University, Manish Kumar held leadership roles at Rutgers Business School, where he helped strengthen the School's financial and operational foundation while supporting its academic and global expansion. He played a key role in implementing modern budget and management frameworks and advancing partnerships that connected the university to regional and global innovation ecosystems, including a 25,000-square-foot innovation accelerator established in collaboration with Newark Venture Partners. His <a href="https://scholar.google.com/citations?user=949ZvBoAAAAJ" target="_blank" rel="noopener">research on leadership and technology</a> dates from this period as well.</p>
+      </div>
+
+      <div class="csec">
+        <p class="cey">Modernization & Recognition</p>
+        <h2>Enterprise Systems, National Engagement, and Executive Education</h2>
+        <p>Across institutions, Mr. Kumar has led enterprise modernization initiatives that touch the everyday work of faculty and staff: most notably, the enterprise-wide implementation of Workday Financial and Human Capital Management systems, which modernized forecasting, improved financial transparency, and strengthened governance reporting. These projects shape his thinking on <a href="modernizing-university-infrastructure.html">how universities should invest in administrative and financial infrastructure</a>.</p>
+        <p>Manish Kumar is nationally recognized for his leadership in higher education financial strategy and institutional transformation. He has presented at the National Association of College and University Business Officers (NACUBO) annual meeting and appeared as a guest on the NACUBO CBO Speaks podcast. He has completed executive leadership programs at Harvard Kennedy School, the Massachusetts Institute of Technology, and the Association of Governing Boards Institute for Leadership and Governance — and received a Best Paper Award from the Academy of Business Research for work on organizational leadership and technology adoption. His writing also appears on <a href="https://substack.com/@manishkumar12" target="_blank" rel="noopener">his Substack newsletter</a>.</p>
+      </div>
+
+      <div class="csec">
+        <p class="cey">Leadership Philosophy</p>
+        <h2>Service to the Public Mission of Higher Education</h2>
+        <p>Mr. Kumar's career reflects a deep commitment to the mission and values of public higher education — the belief that broad access, research excellence, and fiscal responsibility are not competing goals but mutually reinforcing ones. He is widely respected for his collaborative leadership style, his commitment to shared governance, and his ability to build trust among faculty, staff, governing boards, and external stakeholders. He has also led financial strategy supporting more than $40 million in federal and state grant programs expanding student access during COVID-19 and directed planning for the Martin Luther King Jr. Center for Academic Excellence at NEIU.</p>
+        <p>The work ahead — for him and for the field — is to lead institutions through the next era of public higher education with the strategic perspective, executive leadership experience, and governance understanding the moment requires. Manish Kumar is an active candidate for senior executive leadership roles, including university presidency, and continues his national engagement through NACUBO and other higher education leadership forums. His <a href="leading-institutional-transformation.html">thinking on institutional transformation</a> reflects this trajectory. Additional context on his career is available through <a href="https://leadandgovern.com/bio/mr-manish-kumar/" target="_blank" rel="noopener">his Lead and Govern profile</a>.</p>
+      </div>
+
+    </div>
+
+    <aside class="sidebar-facts">
+      <div class="sb-box">
+        <div class="sb-title">Quick Facts</div>
+        <div class="fr"><span class="fl">Current Role</span><span class="fv">VP & CFO, Bowie State University</span></div>
+        <div class="fr"><span class="fl">Location</span><span class="fv">Bowie, Maryland</span></div>
+        <div class="fr"><span class="fl">Experience</span><span class="fv">20+ years in higher education</span></div>
+        <div class="fr"><span class="fl">Past Institutions</span><span class="fv">UNC Chapel Hill, Rutgers, NEIU</span></div>
+        <div class="fr"><span class="fl">Notable Outcome</span><span class="fv">$43M+ secured, four-notch Moody's upgrade</span></div>
+        <div class="fr"><span class="fl">Executive Education</span><span class="fv">Harvard Kennedy School, MIT, AGB</span></div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<!-- ══ SOCIAL + PRESS ACCORDION ══════════════════════════════════ -->
+<div class="acc-section" style="background:var(--off)">
+  <div class="acc-wrap">
+    <button class="acc-btn" onclick="tog(this,'s-about')">Follow Manish Kumar on Social Media <span class="chevron">&#8964;</span></button>
+    <div class="acc-body" id="s-about"><div id="sml-soc-about" class="social-media-list"></div></div>
+    <button class="acc-btn" onclick="tog(this,'n-about')">Manish Kumar in the Press <span class="chevron">&#8964;</span></button>
+    <div class="acc-body" id="n-about"><div id="sml-news-about" class="social-media-list"></div></div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 Manish Kumar. All rights reserved. &nbsp;|&nbsp; <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+
+<script>
+function tog(btn,id){
+  const c=document.getElementById(id),open=c.classList.contains('open');
+  document.querySelectorAll('.acc-body').forEach(e=>e.classList.remove('open'));
+  document.querySelectorAll('.acc-btn').forEach(e=>e.classList.remove('open'));
+  if(!open){c.classList.add('open');btn.classList.add('open');}
+}
+</script>
+</body>
+</html>
